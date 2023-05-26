@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+  
+}
+
+.sidebar{
+    background-color: rgb(213, 205, 205); 
+    /* width: 210px; */
+    font-family: 'Libre Baskerville', serif;
+    height: 100vh;
+    transition: transform 0.28s ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+   
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: blueviolet; */
+    width: 100vw; 
+    background-color: rgb(92, 121, 147);
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(236, 27, 27); */
+    height: 60 vh;
+    width: 80vw;
+    margin: 140px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+      width: 380px;
+      /* height: 70vh; */
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+
+.hello{
+font-size: 60px;
+}
+.name{
+font-size: 45px;
+font-weight: bold;
+}
+.about{
+   font-size: 30px; 
+  margin: 10px 1px;
+}
+.moreabout{
+    font-size: 15px;
+}
+.button{
+    margin-top: 18px ;
+}
+.btn{
+ padding: 7px 20px;
+ border-radius: 19px;
+ color: beige;
+ background-color: rgb(64, 64, 194);
+font-size: 20px;
+margin: 0 8px;
+cursor: pointer;
+}
+.btn-sm{
+    font-size: 12px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: rgb(64, 64, 194);
+}
+.hobbies-section {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .hobby {
+    margin-bottom: 20px;
+  }
+  
+  .hobby img {
+    max-width: 70%;
+    margin: 20px 10px ; 
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .hobby h2 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+  
+  .hobby p {
+    margin: 20px 3px;
+    line-height: 2;
+  }
+.contctform{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 30px; 
+  padding-top: 144px;
+}
+.contactform h1{
+    /* text-align: center; */
+font-family: Arial, Helvetica, sans-serif;
+}
+.contactform form   div{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{ 
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0 ;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(50, 50, 113);
+    margin: 0 5px;
+    padding-top: 3px; 
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin: 20px;
+}
+ p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro h2{
+   margin: 12px;
+}
+.intro p{
+margin: 13px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.skills{
+    width: 250px;
+    height: 6px;
+    font-weight: 800;
+    /* background-color: rgb(8, 150, 0); */
+}
+.hundered{
+    width: 250px;
+    background-color: rgb(61, 14, 104);
+}
+.fiftytoeighty{
+    width: 175px;
+    background-color: cyan;
+}
+.belowfifty{
+    width: 100px;
+    background-color: greenyellow;
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 12px;
+}
+.cross{
+    height: 25px;
+    margin-left: 78px;
+    padding-bottom: 5px;
+}
+.ham{
+    margin: -6px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.skills-section {
+    padding: 40px 0;
+    background-color: #00c75a;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 20px
+  ;
+  }
+  
+  .skills-list h3 {
+  font-size: 20px;
+  }
+
+/* @media (max-width: 1620px){
+    *{
+
+    }
+.sidebar{
+   transform: translate(-440 px, 0px); 
+   position: absolute; 
+}
+} */
+
